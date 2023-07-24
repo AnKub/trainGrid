@@ -1,29 +1,44 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+  grid-template-columns: 10%;
 }
 
 .task3 {
   display: grid;
+  gap: 25px 15px;
 }
 
 .task4 {
   display: grid;
+  grid-template-columns: ;
 }
 .task4 .item2 {
+  grid-column: 1;
+  grid-row: 5;
 }
 .task4 .item4 {
+  grid-column: 1;
+  grid-row: 4;
 }
 .task4 .item3 {
+  grid-column: 1;
+  grid-row: 6;
 }
 
 .task5 {
   display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
+  align-items: start;
 }
 
 .task6 {
   display: grid;
+  grid-template-rows: ;
 }
 
 .task7 {
